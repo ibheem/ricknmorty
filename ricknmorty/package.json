@@ -1,0 +1,33 @@
+{
+  "name": "ricknmorty",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.0.2",
+    "@apollo/react-hooks": "^3.1.5",
+    "apollo-boost": "^0.4.9",
+    "apollo-link-ws": "^1.0.20",
+    "eslint-plugin-react-hooks": "^4.0.8",
+    "graphql": "^15.3.0",
+    "isomorphic-unfetch": "^3.0.0",
+    "next": "9.4.4",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-router-dom": "^5.2.0",
+    "react-select": "^3.1.0",
+    "styled-components": "^5.1.1"
+  },
+  "devDependencies": {
+    "babel-jest": "^26.1.0",
+    "babel-plugin-styled-components": "^1.8.0",
+    "eslint": "^7.5.0",
+    "eslint-plugin-react": "^7.20.3",
+    "jest": "^26.1.0"
+  }
+}
